@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100%;
+    height: 150px;
+    background-color: rgba(78, 160, 255, 255);
+    background-image: url(../img/logo.svg), url(../img/pattern.png);
+    background-repeat: no-repeat, repeat;
+    background-position: bottom left, center;
+    background-size: 20%, 50%;
+    
+}
+
+main {
+    margin-left: 100px;
+    margin-right:100px;
+    font-size: 20px;
+}
+
+h1 {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+#intestazione {
+    color: #7b7b7b;
+    font-size: 16px;
+}
+
+#intestazione span {
+    color: #4cb9ea
+}
+
+#foto {
+    margin-top: 30px;
+}
+
+.didascalie {
+    font-size: 12px;
+}
+
+#paragrafo-1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#paragrafo-1 span {
+    background-color: yellow;
+}
+
+#lista {
+    padding: 15px;
+}
+
+#tabella {
+    margin-top: 30px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+thead {
+    color: white;
+    background-color: #20a9e5;
+}
+
+tr {
+    height: 50px;
+}
+
+#colored-row {
+    background-color: #b1e5f2;
+}
+
+#paragrafo-2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#paragrafo-2 span {
+    background-color: yellow;
+}
+
+footer {
+    margin: 10px;
+}
+
+#fine-doc {
+    color: #808080;
+}
+
+#img-monitor {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.immagine {
+    position: relative;
+    color: white;
+    font-size: 30px;
+}
+
+.testo {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
