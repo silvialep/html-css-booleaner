@@ -63,13 +63,13 @@ table{
     border-collapse: collapse;
 }
 
-tr{
-    height: 50px;
+thead {
+    color: white;
+    background-color: #20a9e5;
 }
 
-thead{
-    color:white;
-    background-color: #20a9e5;
+tr{
+    height: 50px;
 }
 
 #colored-row{
@@ -79,6 +79,10 @@ thead{
 #paragrafo-2{
     margin-top:30px;
     margin-bottom:30px;
+}
+
+#paragrafo-2 span {
+    background-color: yellow;
 }
 
 footer{
@@ -94,6 +98,14 @@ footer{
     margin-bottom:10px;
 }
 
-#paragrafo-2 span {
-    background-color: yellow;
+.immagine{
+    position:relative;
+    color: white;
+    font-size: 30px;
+}
+
+.testo{
+    position:absolute;
+    top: 8px;
+    left: 16px;
 }
