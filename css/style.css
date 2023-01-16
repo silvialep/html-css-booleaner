@@ -17,15 +17,18 @@ body{
 
 main{
     margin: 10px;
+    font-size:20px;
 }
 
 h1{
     margin-top: 20px;
     font-weight: 600;
+    font-size:60px;
 }
 
 #intestazione{
-    color: #7b7b7b
+    color: #7b7b7b;
+    font-size: 16px;
 }
 
 #intestazione span{
@@ -57,6 +60,14 @@ h1{
     margin-top:30px;
 }
 
+table{
+    border-collapse: collapse;
+}
+
+tr{
+    height: 50px;
+}
+
 thead{
     color:white;
     background-color: #20a9e5;
@@ -82,4 +93,8 @@ footer{
 #img-monitor{
     display:block;
     margin-bottom:10px;
+}
+
+#paragrafo-2 span {
+    background-color: yellow;
 }
