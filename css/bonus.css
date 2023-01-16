@@ -7,12 +7,13 @@ body {
 #container {
     width: 100%;
     height: 150px;
+    padding-left: 100px;
     background-color: rgba(78, 160, 255, 255);
     background-image: url(../img/logo.svg), url(../img/pattern.png);
     background-repeat: no-repeat, repeat;
     background-position: bottom left, center;
     background-size: 20%, 50%;
-    
+    background-origin: content-box, content-box;
 }
 
 main {
@@ -88,7 +89,8 @@ tr {
 }
 
 footer {
-    margin: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 #fine-doc {
