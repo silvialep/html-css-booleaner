@@ -11,8 +11,12 @@
 }
 
 #pattern{
-    max-width: 100%;
+    max-width: 300px;
     height: auto;
+}
+
+main{
+    margin: 20px;
 }
 h1{
     margin-top: 20px;
@@ -23,6 +27,36 @@ h1{
     color: #7b7b7b
 }
 
-span{
+#intestazione span{
     color: #4cb9ea
+}
+
+#foto{
+    margin-top: 20px;
+}
+
+.didascalie{
+    font-size: 12px;
+}
+
+#paragrafo {
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+#paragrafo span{
+    background-color: yellow;
+}
+
+#lista{
+    margin-left:10px;
+}
+
+#tabella{
+    margin-top:20px;
+}
+
+thead{
+    color:white;
+    background-color: #20a9e5;
 }
